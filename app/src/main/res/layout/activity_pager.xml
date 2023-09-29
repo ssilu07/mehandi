@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PagerActivity"
+    android:background="@color/purple_200">
+    <!-- to show ads at bottom paste this line no 12 -->
+    <!--android:layout_above="@id/adView"-->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+<!--    <FrameLayout
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true" />-->
+</RelativeLayout>
